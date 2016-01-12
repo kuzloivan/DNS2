@@ -1,0 +1,51 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* SandroProxyLib.iml
+* build.xml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => sandroProxyLib\src\main\AndroidManifest.xml
+* jni\ => sandroProxyLib\src\main\jni\
+* libs\armeabi-v7a\libsocketdest.so => sandroProxyLib\src\main\jniLibs\armeabi-v7a\libsocketdest.so
+* libs\armeabi\libsocketdest.so => sandroProxyLib\src\main\jniLibs\armeabi\libsocketdest.so
+* libs\bc.jar => sandroProxyLib\libs\bc.jar
+* libs\bsf-2.3.0.jar => sandroProxyLib\libs\bsf-2.3.0.jar
+* libs\bsh-2.0b4.jar => sandroProxyLib\libs\bsh-2.0b4.jar
+* libs\chardet.jar => sandroProxyLib\libs\chardet.jar
+* libs\concurrent.jar => sandroProxyLib\libs\concurrent.jar
+* libs\htmlparser.jar => sandroProxyLib\libs\htmlparser.jar
+* libs\java_websocket.jar => sandroProxyLib\libs\java_websocket.jar
+* libs\jcifs-1.3.14.jar => sandroProxyLib\libs\jcifs-1.3.14.jar
+* libs\jnetutils.jar => sandroProxyLib\libs\jnetutils.jar
+* libs\mips\libsocketdest.so => sandroProxyLib\src\main\jniLibs\mips\libsocketdest.so
+* libs\x86\libsocketdest.so => sandroProxyLib\src\main\jniLibs\x86\libsocketdest.so
+* res\ => sandroProxyLib\src\main\res\
+* src\ => sandroProxyLib\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

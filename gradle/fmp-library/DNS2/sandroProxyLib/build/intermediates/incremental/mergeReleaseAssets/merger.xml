@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Android\WorkSpace\My\FFmpegMediaPlayer\FFmpegMediaPlayer\gradle\fmp-library\DNS2\sandroProxyLib\src\main\assets"/></dataSet><dataSet config="release"><source path="C:\Android\WorkSpace\My\FFmpegMediaPlayer\FFmpegMediaPlayer\gradle\fmp-library\DNS2\sandroProxyLib\src\release\assets"/></dataSet></merger>
